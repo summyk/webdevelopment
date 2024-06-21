@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector</title>
+    <style>
+        /* this is element selector */
+        p
+        {
+          border: 2px solid red;
+        }
+        /* this id selector */
+        #firstid
+        {
+            color: aqua;
+        }
+        /* this is class selector  */
+        .firstclass
+        {
+            color: red;
+            background-color: blue;
+        }
+        /* this is group selector */
+        footer span {
+              background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <p>this is simple paragraph to demonstrate css selector </p>
+    <p id="firstid" class="firstclass">this is another simple  paragraph to demonstrate css selector</p>
+    <div>
+
+        <p class="firstclass">this is yet another simple  paragraph to demonstrate css selector</p>
+        <span>this is span </span>
+    </div>
+    <footer>this is footer</footer>
+    
+</body>
+</html>

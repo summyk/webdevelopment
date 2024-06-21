@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javasript string function</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <script>
+       var str="This ismy string"; 
+       console.log(str);
+
+    //    indexOf is start with 1
+       var position = str.indexOf('ismy');
+    //  last occurence of a substring
+       postion=str.lastIndexOf('ismy');
+       console.log(position);
+    //  slice cannot use negative slice...substring can use negative slice
+
+    var substr = str.substr(1,7);
+    console.log(substr)
+
+    </script>
+</body>
+</html>
